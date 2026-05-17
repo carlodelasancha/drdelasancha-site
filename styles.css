@@ -171,6 +171,29 @@ p { margin: 0 0 1rem; color: var(--ink-soft); }
   margin: 2rem 0;
 }
 
+.cards-2 {
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 720px;
+}
+
+.section-compact {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-top: 1px solid var(--line);
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.compact-heading {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+  margin-bottom: 0.5rem;
+}
+
 .card {
   background: white;
   padding: 1.5rem;
